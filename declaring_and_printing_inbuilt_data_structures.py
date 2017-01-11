@@ -11,6 +11,7 @@ print(l)
 # second method of directly declaring a list
 l1=['saim', 'yavar', 'sidra1', 1013, 101.99, 'adil1']
 print(l1)
+print(l1[0]+' '+str(l1[3]))
 print(type(l1))
 
 # declaring a tuple
@@ -22,6 +23,7 @@ print(type(tup))
 dic={'a':'apple','b':'ball','c':'cat','d':'dog'}
 print(dic)
 print(type(dic))
+print(dic['b'])
 
 # second method of declaring a dictionary
 dic1={}
